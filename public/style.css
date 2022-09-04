@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.data {
+	margin-top: 50px;
+	/* padding: 0px 400px; */
+	display: flex;
+	justify-content: center;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	gap: 20px;
+	width: 200px;
+}
+
+ul li {
+	background: grey;
+	padding: 0 10px;
+	background-repeat: no-repeat;
+	background-position: center 50px;
+	display: inline;
+}
+
+ul li a {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.box {
+	content: "";
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
