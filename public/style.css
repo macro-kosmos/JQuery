@@ -47,7 +47,8 @@ ul li a {
 	overflow-y: scroll;
 }
 
-.fixed {
-	position: fixed;
-	top: 0;
+/* Other */
+
+a {
+	margin-top: 1500px;
 }
